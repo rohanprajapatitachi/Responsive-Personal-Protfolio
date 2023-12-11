@@ -226,4 +226,6 @@
     }
 
     /* Show Menu */
-
+    .show-menu{
+        bottom: 0;
+    }
