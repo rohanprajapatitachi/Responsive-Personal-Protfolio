@@ -21,7 +21,7 @@
     --body-color: hsl(var(--hue-color), 60%, 99%);
     --container-color: #FFF;
 
-    /* Font and Typography */
+    /*  Font and Typography  */
     --body-font: 'Poppins', sans-serif;
 
     /* 0.5rem = 8px, 1rem = 16px, 1.5rem = 24px */
