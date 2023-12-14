@@ -15,6 +15,15 @@ if(navToggle){
 /*Validate if contact exists*/
 if(navClose){
     navClose.addEventListener('click', () =>{
-        navMenu.classList.remove("show-menu")
+        navMenu.classList.remove("show-menu");
     })
 }
+
+/* Remove Menu Mobile */
+const navLink = document.querySelectorAll("nav__link");
+
+function linkAction(){
+    // When we click on each nav__link, we remove the show-menu class //
+    navMenu.classList.remove("show-menu");
+}
+navLink.forEach(n => n.addEventListener('click', linkAction))
