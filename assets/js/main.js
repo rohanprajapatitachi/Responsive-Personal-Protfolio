@@ -20,7 +20,7 @@ if(navClose){
 }
 
 /* Remove Menu Mobile */
-const navLink = document.querySelectorAll("nav__link");
+const navLink = document.querySelectorAll(".nav__link");
 
 function linkAction(){
     // When we click on each nav__link, we remove the show-menu class //
