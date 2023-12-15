@@ -280,7 +280,11 @@
         font-weight: var(--font-medium);
         margin-bottom: var(--mb-0-75);
     }
-    
+
+    .home__description{
+        margin-bottom: var(--mb-2);
+    }
+
 
   
 
