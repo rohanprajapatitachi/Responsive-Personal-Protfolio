@@ -313,7 +313,16 @@
     }
 
     /* Buttons */
-    
+    .button{
+        display: inline-block;
+        background-color: var(--first-color);
+        color: #FFF;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        font-weight: var(--font-medium);
+    }
+  
+
 
   
 
