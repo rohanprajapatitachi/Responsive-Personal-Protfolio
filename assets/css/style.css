@@ -286,7 +286,7 @@
     }
 
     .home__scroll{
-        /* display: none; */
+        display: none;
     }
 
     .home__scroll-button{
@@ -320,6 +320,20 @@
         padding: 1rem;
         border-radius: 0.5rem;
         font-weight: var(--font-medium);
+    }
+    .button:hover{
+        background-color: var(--first-color-alt);
+    }
+
+    .button__icon{
+        font-size: 1.25rem;
+        margin-right: var(--mb-0-5);
+        transition: 0.3s;
+    }
+
+    .button--flex{
+        display: inline-flex;
+        align-items: center;
     }
   
 
