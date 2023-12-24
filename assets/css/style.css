@@ -484,10 +484,8 @@
     margin-bottom: var(--mb-2);
 }
 
-.qualification__buttons{
-    display: flex;
-    align-items: center;
-    margin-bottom: var(--mb-2);
+.qualification__button{
+    font-size: var(--h3-font-size);
 }
 
 
