@@ -484,6 +484,12 @@
     margin-bottom: var(--mb-2);
 }
 
+.qualification__buttons{
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-2);
+}
+
 
   
 
