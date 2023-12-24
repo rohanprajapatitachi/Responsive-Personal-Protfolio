@@ -489,6 +489,9 @@
     font-weight: var(--font-medium);
     cursor: pointer;
 }
+.qualification__button:hover{
+    color: var(--first-color);
+}
 
 
   
