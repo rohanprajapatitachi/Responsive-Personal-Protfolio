@@ -336,6 +336,20 @@
         align-items: center;
     }
 
+    .button--small{
+        padding: 0.75rem 1rem;
+    }
+
+    .button--link{
+        padding: 0;
+        background-color: transparent;
+        color: var(--first-color);
+    }
+    .button--link:hover{
+        background-color: transparent;
+        color: var(--first-color-alt);
+    }
+
     /* About */
     .about__img{
         border-radius: 0.5rem;
@@ -563,6 +577,31 @@
     transition: .3s;
 }
 
+.services__content:hover{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.services__icon{
+    display: block;
+    font-size: 1.6rem;
+    color: var(--first-color);
+    margin-bottom: var(--mb-1);
+}
+.service-icon{
+    display: flex;
+    gap: 0.7rem;
+}
+
+.service__title{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1);
+}
+
+.services__button{
+    cursor: pointer;
+    font-size: var(--small-font-size);
+}
 
   
 
