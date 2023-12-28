@@ -603,7 +603,7 @@
     font-size: var(--small-font-size);
 }
 .services__button:hover .button__icon{
-    transform: translate(0.50rem);
+    transform: translate(0.5rem);
 }
 
 .services__modal{
