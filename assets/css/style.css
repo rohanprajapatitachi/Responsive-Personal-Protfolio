@@ -255,11 +255,11 @@
     .home__social{
         display: grid;
         grid-template-columns: max-content;
-        row-gap: 1rem;
+        row-gap: 1.2rem;
     }
 
     .home__social-icon{
-        font-size: 1.25rem;
+        font-size: 1.7rem;
         color: var(--first-color);
     }
 
@@ -863,7 +863,7 @@
 }
 
 .footer__social{
-    font-size: 1.25rem;
+    font-size: 1.50rem;
     margin-right: var(--mb-1-5);
 }
 
