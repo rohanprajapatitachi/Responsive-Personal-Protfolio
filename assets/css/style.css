@@ -237,7 +237,7 @@
 
     /* Change Background Header */
     .scroll-header{
-        box-shadow: 0 -1px 4px rgba(0,0,0,0.15);
+        box-shadow: 0;
     }
 
 
@@ -830,7 +830,8 @@
 
 /* FOOTER */
 .footer{
-    padding-top: 2rem;
+    padding-top: 0rem;
+    margin-top: -0.4rem;
 }
 
 .footer__container{
