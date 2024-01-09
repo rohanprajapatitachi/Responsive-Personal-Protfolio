@@ -884,3 +884,16 @@
 .footer__social{
     color: #FFF;
 }
+
+/* SCROLL UP */
+.scrollup{
+    position: fixed;
+    right: 1rem;
+    bottom: 5rem;
+    background-color: var(--first-color);
+    opacity: 0.8;
+    padding: 0 0.3rem;
+    border-radius: 0.4rem;
+    z-index: var(--z-tooltip);
+    transition: 0.4s;
+}
