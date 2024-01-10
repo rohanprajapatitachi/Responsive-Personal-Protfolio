@@ -21,6 +21,9 @@
     --body-color: hsl(var(--hue-color), 60%, 99%);
     --container-color: #FFF;
 
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+
     /*  Font and Typography  */
     --body-font: 'Poppins', sans-serif;
 
@@ -940,4 +943,16 @@ body.dark-theme{
 /* show-scroll */
 .show-scroll{
     bottom: 5rem;
+}
+
+/* Scroll Bar */
+::webkit-scrollbar{
+    width: 0.60rem;
+    background-color: var(--scroll-bar-color);
+    border-radius: 0.5rem;
+}
+
+::webkit-scrollbar-thumb{
+    background-color: var(--scroll-thumb-color);
+    border-radius: 0.5rem;
 }
