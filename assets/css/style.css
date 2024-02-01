@@ -1031,6 +1031,25 @@ body.dark-theme{
     .home__content{
         grid-template-columns: max-content 1fr fr;
     }
+    .home__data{
+        grid-column: initial;
+    }
+    .home__img{
+        order: 1;
+        justify-self: center;
+    }
+
+    .about__container,
+    .skills__container,
+    .portfolio__content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .qualification__sections{
+        display: grid;
+        grid-template-columns: 0.6fr;
+        justify-content: center;
+    }
     
 }
 
