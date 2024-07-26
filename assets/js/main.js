@@ -11,7 +11,7 @@ if(navToggle){
     })
 }
 
-/* Menu Hidden */
+/* Menu Hidden */ //have issues
 /*Validate if contact exists*/
 if(navClose){
     navClose.addEventListener('click', () =>{
